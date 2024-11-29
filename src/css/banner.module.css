@@ -19,12 +19,16 @@
 .banner__text {
   position: relative;
   z-index: 2;
-  min-height: 15rem;
+  min-height: 10rem;
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
+
+
 
 .banner__text h2,
 .banner__text p,
@@ -34,7 +38,7 @@
 
 .banner__text p {
   margin-top: 0.5rem !important;
-  max-width: 24rem;
+  max-width: 100%;
 }
 
 .banner__text a {

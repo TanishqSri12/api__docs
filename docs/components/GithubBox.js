@@ -15,24 +15,24 @@ const GithubBox = ({ name, description, url }) => {
     }
   }
 
-  return (
-    <div className="githubbox" >
-    <div style={{ marginRight: '20px' }}>
-      {/* GitHub Logo */}
-      <img 
-        src="/assets/github.svg" 
-        alt="GitHub" 
-        style={{ width: '40px', height: '40px' }}
-      />
-    </div>
-    <div>
-      <Link to={url} onClick={() => console.log('Link clicked')}>
-        <h3 style={{ fontSize: '20px', margin: '0' }}>{name}</h3>
-        <p style={{ margin: '0', fontSize: '14px', color: '#555' }}>{description}</p>
-      </Link>
-    </div>
-  </div>
-  )
+  // return (
+  //   <div className="githubbox" >
+  //   <div style={{ marginRight: '20px' }}>
+  //     {/* GitHub Logo */}
+  //     <img 
+  //       src="/assets/github.svg" 
+  //       alt="GitHub" 
+  //       style={{ width: '40px', height: '40px' }}
+  //     />
+  //   </div>
+  //   <div>
+  //     <Link to={url} onClick={() => console.log('Link clicked')}>
+  //       <h3 style={{ fontSize: '20px', margin: '0' }}>{name}</h3>
+  //       <p style={{ margin: '0', fontSize: '14px', color: '#555' }}>{description}</p>
+  //     </Link>
+  //   </div>
+  // </div>
+  // )
 }
 
 export default GithubBox

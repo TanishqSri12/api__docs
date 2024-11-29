@@ -9,9 +9,10 @@ export default function DocSidebarWrapper(props) {
   return (
     <>
       <li className="custom-list__logo">
+        <img src="/img/intelsmall.png" alt="Docs Logo" />
         <a className="navbar__brand" href="/">
           {/* <img src="/img/docs-logo.svg" alt="Docs Logo" /> */}
-          <img src="/img/intelsmall.png" alt="Docs Logo" />
+          {/* <img src="/img/intelsmall.png" alt="Docs Logo" /> */}
         </a>
       </li>
       <FrameworksMenu />

@@ -4,8 +4,33 @@ export function parseEnvironment(env) {
     return ".NET"
   }
   if (env === 'ios') {
-    return 'iOS'
+    return 'Ruby'
   }
+
+  if (env === 'react') {
+    return 'cURL'
+  }
+  if (env === 'vue') {
+    return 'Java'
+  }if (env === 'reactNative') {
+    return 'Python'
+  }if (env === 'flutter') {
+    return 'Php'
+  }if (env === 'android') {
+    return 'NodeJS'
+  }
+  if (env === 'unity') {
+    return 'Dart'
+  }
+  if (env === 'react-native') {
+    return 'Python'
+  }
+  if (env === 'next') {
+    return 'Go'
+  }
+
+
+
   if(env === 'javascript'){
     return "JavaScript"
   }
