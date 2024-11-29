@@ -7,140 +7,140 @@ const dropdown_placeholder = {
   defaultStyle: true
 }
 
-const cloud = {
-  type: 'category',
-  label: 'Cloud',
-  collapsible: false,
-  className: 'menu_outer_list',
-  items: [
-    'cloud/explorer',
-    'cloud/explorer-submission',
-    {
-      type: 'category',
-      label: 'Explorer Chains',
-      items: ['cloud/chains/overview', 'cloud/chains/chain-list']
-    },
-    'cloud/verify',
-    'cloud/relay',
-    'cloud/blockchain-api',
-    'cloud/analytics',
-    'cloud/paymaster'
-  ]
-}
+// const cloud = {
+//   type: 'category',
+//   label: 'Cloud',
+//   collapsible: false,
+//   className: 'menu_outer_list',
+//   items: [
+//     'cloud/explorer',
+//     'cloud/explorer-submission',
+//     {
+//       type: 'category',
+//       label: 'Explorer Chains',
+//       items: ['cloud/chains/overview', 'cloud/chains/chain-list']
+//     },
+//     'cloud/verify',
+//     'cloud/relay',
+//     'cloud/blockchain-api',
+//     'cloud/analytics',
+//     'cloud/paymaster'
+//   ]
+// }
 
-const advanced = {
-  type: 'category',
-  label: 'Advanced',
-  collapsible: false,
-  className: 'menu_outer_list',
-  items: [
-    {
-      type: 'category',
-      label: 'Multi-Chain',
-      items: [
-        {
-          type: 'category',
-          label: 'RPC Reference',
-          items: [
-            'advanced/multichain/rpc-reference/cosmos-rpc',
-            'advanced/multichain/rpc-reference/ethereum-rpc',
-            'advanced/multichain/rpc-reference/solana-rpc',
-            'advanced/multichain/rpc-reference/near-rpc',
-            'advanced/multichain/rpc-reference/starknet-rpc',
-            'advanced/multichain/rpc-reference/stellar-rpc',
-            'advanced/multichain/rpc-reference/hedera-rpc',
-            'advanced/multichain/rpc-reference/tezos-rpc',
-            'advanced/multichain/rpc-reference/xrpl-rpc',
-            'advanced/multichain/rpc-reference/casper-rpc',
-            'advanced/multichain/rpc-reference/everscale-rpc',
-            'advanced/multichain/rpc-reference/bitcoin-rpc',
-            'advanced/multichain/rpc-reference/litecoin-rpc',
-            'advanced/multichain/rpc-reference/dogecoin-rpc'
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Examples',
-          items: [
-            ,
-            {
-              type: 'category',
-              label: 'Polkadot',
-              items: [
-                'advanced/multichain/polkadot/dapp-integration-guide',
-                'advanced/multichain/polkadot/namespaces-guide',
-                'advanced/multichain/polkadot/wallet-integration-guide'
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Providers & Adapters',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'advanced/providers/ethereum',
-        'advanced/providers/universal',
-        'advanced/providers/solana-adapter'
-      ]
-    },
-    {
-      type: 'category',
-      label: 'APIs',
-      collapsed: true,
-      collapsible: true,
-      items: [
-        {
-          type: 'category',
-          label: 'Core',
-          items: ['api/core/pairing', 'api/core/relay', 'api/core/shared-core']
-        },
-        {
-          type: 'category',
-          label: 'Notify',
-          items: ['api/notify/about']
-        },
-        {
-          type: 'category',
-          label: 'Sign',
-          items: [
-            'api/sign/overview',
-            'api/sign/dapp-usage',
-            'api/sign/wallet-usage',
-            'api/sign/smart-contract-wallet-usage'
-          ]
-        }
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Security',
-      collapsed: true,
-      collapsible: true,
-      items: ['advanced/security/content-security-policy']
-    },
-    'advanced/push-server',
-    'advanced/walletconnect-deprecations'
-  ]
-}
+// const advanced = {
+//   type: 'category',
+//   label: 'Advanced',
+//   collapsible: false,
+//   className: 'menu_outer_list',
+//   items: [
+//     {
+//       type: 'category',
+//       label: 'Multi-Chain',
+//       items: [
+//         {
+//           type: 'category',
+//           label: 'RPC Reference',
+//           items: [
+//             'advanced/multichain/rpc-reference/cosmos-rpc',
+//             'advanced/multichain/rpc-reference/ethereum-rpc',
+//             'advanced/multichain/rpc-reference/solana-rpc',
+//             'advanced/multichain/rpc-reference/near-rpc',
+//             'advanced/multichain/rpc-reference/starknet-rpc',
+//             'advanced/multichain/rpc-reference/stellar-rpc',
+//             'advanced/multichain/rpc-reference/hedera-rpc',
+//             'advanced/multichain/rpc-reference/tezos-rpc',
+//             'advanced/multichain/rpc-reference/xrpl-rpc',
+//             'advanced/multichain/rpc-reference/casper-rpc',
+//             'advanced/multichain/rpc-reference/everscale-rpc',
+//             'advanced/multichain/rpc-reference/bitcoin-rpc',
+//             'advanced/multichain/rpc-reference/litecoin-rpc',
+//             'advanced/multichain/rpc-reference/dogecoin-rpc'
+//           ]
+//         },
+//         {
+//           type: 'category',
+//           label: 'Examples',
+//           items: [
+//             ,
+//             {
+//               type: 'category',
+//               label: 'Polkadot',
+//               items: [
+//                 'advanced/multichain/polkadot/dapp-integration-guide',
+//                 'advanced/multichain/polkadot/namespaces-guide',
+//                 'advanced/multichain/polkadot/wallet-integration-guide'
+//               ]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       type: 'category',
+//       label: 'Providers & Adapters',
+//       collapsible: true,
+//       collapsed: true,
+//       items: [
+//         'advanced/providers/ethereum',
+//         'advanced/providers/universal',
+//         'advanced/providers/solana-adapter'
+//       ]
+//     },
+//     {
+//       type: 'category',
+//       label: 'APIs',
+//       collapsed: true,
+//       collapsible: true,
+//       items: [
+//         {
+//           type: 'category',
+//           label: 'Core',
+//           items: ['api/core/pairing', 'api/core/relay', 'api/core/shared-core']
+//         },
+//         {
+//           type: 'category',
+//           label: 'Notify',
+//           items: ['api/notify/about']
+//         },
+//         {
+//           type: 'category',
+//           label: 'Sign',
+//           items: [
+//             'api/sign/overview',
+//             'api/sign/dapp-usage',
+//             'api/sign/wallet-usage',
+//             'api/sign/smart-contract-wallet-usage'
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       type: 'category',
+//       label: 'Security',
+//       collapsed: true,
+//       collapsible: true,
+//       items: ['advanced/security/content-security-policy']
+//     },
+//     'advanced/push-server',
+//     'advanced/walletconnect-deprecations'
+//   ]
+// }
 
-const specs = {
-  type: 'category',
-  label: 'Technical Reference',
-  collapsible: false,
-  className: 'menu_outer_list',
-  items: [
-    {
-      type: 'link',
-      label: 'Specs',
-      href: 'https://specs.walletconnect.com/'
-    },
-    'advanced/faq'
-  ]
-}
+// const specs = {
+//   type: 'category',
+//   label: 'Technical Reference',
+//   collapsible: false,
+//   className: 'menu_outer_list',
+//   items: [
+//     {
+//       type: 'link',
+//       label: 'Specs',
+//       href: 'https://specs.walletconnect.com/'
+//     },
+//     'advanced/faq'
+//   ]
+// }
 
 const welcome = {
   type: 'category',
@@ -171,19 +171,7 @@ module.exports = {
       label: 'Overview',
       href: '/'
     },
-    {
-      type: 'category',
-      label: 'WalletConnectModal',
-      collapsible: false,
-      className: 'menu_outer_list',
-      items: [
-        'advanced/walletconnectmodal/about',
-        'advanced/walletconnectmodal/usage',
-        'advanced/walletconnectmodal/options',
-        'advanced/walletconnectmodal/theming',
-        'advanced/walletconnectmodal/resources'
-      ]
-    }
+   
   ],
   mainSidebar: [
     {
@@ -203,11 +191,11 @@ module.exports = {
           label: 'Overview',
           href: '/'
         },
-        {
-          type: 'link',
-          label: 'System Status',
-          href: 'https://status.walletconnect.com'
-        }
+        // {
+        //   type: 'link',
+        //   label: 'System Status',
+        //   href: 'https://status.walletconnect.com'
+        // }
       ]
     },
     {
@@ -218,111 +206,111 @@ module.exports = {
       items: [
         {
           type: 'category',
-          label: 'AppKit',
+          label: 'API Docs',
           collapsed: false,
           collapsible: true,
           className: 'sidebar__logo sidebar__logo--appkit',
           items: [
             'appkit/overview',
-            {
-              type: 'category',
-              label: 'Features',
-              collapsed: false,
-              collapsible: true,
-              items: [
-                { type: 'doc', label: 'Swaps', id: 'appkit/features/swaps' },
-                { type: 'doc', label: 'Email & Social Login', id: 'appkit/features/socials' },
-                { type: 'doc', label: 'On-Ramp', id: 'appkit/features/onramp' },
-                { type: 'doc', label: 'One-Click Auth', id: 'appkit/features/one-click-auth' },
-                { type: 'doc', label: 'Smart Accounts', id: 'appkit/features/smart-accounts' },
-                { type: 'doc', label: 'Solana', id: 'appkit/features/solana' },
-                { type: 'doc', label: 'Multichain', id: 'appkit/features/multichain' },
-                { type: 'doc', label: 'Notifications', id: 'appkit/features/notifications' },
-                { type: 'doc', label: 'Telegram Mini Apps', id:'appkit/features/telegram-mini-apps'}
-              ]
-            },
-            {
-              type: 'category',
-              label: 'Upgrade',
-              collapsed: true,
-              collapsible: true,
-              items: [
-                { type: 'doc', label: 'To Reown AppKit', id: 'appkit/upgrade/from-w3m-to-reown' }
-                //{ type: 'doc', label: 'AppKit v2 to v5', id: 'appkit/upgrade/appkitv2' },
-              ]
-            },
-            {
-              type: 'category',
-              label: 'Migration',
-              collapsed: true,
-              collapsible: true,
-              items: [
-                {
-                  type: 'doc',
-                  label: 'From RainbowKit',
-                  id: 'appkit/migration/from-rainbowkit-next'
-                },
-                {
-                  type: 'doc',
-                  label: 'From ConnectKit',
-                  id: 'appkit/migration/from-connectkit-next'
-                },
-                {
-                  type: 'doc',
-                  label: 'From Anza Adapter',
-                  id: 'appkit/migration/from-anza-adapter-react'
-                }
-              ]
-            }
+            // {
+            //   type: 'category',
+            //   label: 'Features',
+            //   collapsed: false,
+            //   collapsible: true,
+            //   items: [
+            //     { type: 'doc', label: 'Swaps', id: 'appkit/features/swaps' },
+            //     { type: 'doc', label: 'Email & Social Login', id: 'appkit/features/socials' },
+            //     { type: 'doc', label: 'On-Ramp', id: 'appkit/features/onramp' },
+            //     { type: 'doc', label: 'One-Click Auth', id: 'appkit/features/one-click-auth' },
+            //     { type: 'doc', label: 'Smart Accounts', id: 'appkit/features/smart-accounts' },
+            //     { type: 'doc', label: 'Solana', id: 'appkit/features/solana' },
+            //     { type: 'doc', label: 'Multichain', id: 'appkit/features/multichain' },
+            //     { type: 'doc', label: 'Notifications', id: 'appkit/features/notifications' },
+            //     { type: 'doc', label: 'Telegram Mini Apps', id:'appkit/features/telegram-mini-apps'}
+            //   ]
+            // },
+            // {
+            //   type: 'category',
+            //   label: 'Upgrade',
+            //   collapsed: true,
+            //   collapsible: true,
+            //   items: [
+            //     { type: 'doc', label: 'To Reown AppKit', id: 'appkit/upgrade/from-w3m-to-reown' }
+            //     //{ type: 'doc', label: 'AppKit v2 to v5', id: 'appkit/upgrade/appkitv2' },
+            //   ]
+            // },
+            // {
+            //   type: 'category',
+            //   label: 'Migration',
+            //   collapsed: true,
+            //   collapsible: true,
+            //   items: [
+            //     {
+            //       type: 'doc',
+            //       label: 'From RainbowKit',
+            //       id: 'appkit/migration/from-rainbowkit-next'
+            //     },
+            //     {
+            //       type: 'doc',
+            //       label: 'From ConnectKit',
+            //       id: 'appkit/migration/from-connectkit-next'
+            //     },
+            //     {
+            //       type: 'doc',
+            //       label: 'From Anza Adapter',
+            //       id: 'appkit/migration/from-anza-adapter-react'
+            //     }
+            //   ]
+            // }
           ]
         },
-        {
-          type: 'category',
-          label: 'WalletKit',
-          collapsed: false,
-          collapsible: true,
-          className: 'sidebar__logo sidebar__logo--walletkit',
-          items: [
-            'walletkit/overview',
-            {
-              type: 'category',
-              label: 'Features',
-              collapsed: false,
-              collapsible: true,
-              items: [
-                { type: 'doc', label: 'One-Click Auth', id: 'walletkit/features/one-click-auth' },
-                { type: 'doc', label: 'Notifications', id: 'walletkit/features/notifications' },
-                { type: 'doc', label: 'Verify', id: 'walletkit/features/verify' }
-              ]
-            },
-            'walletkit/best-practices',
-            {
-              type: 'category',
-              label: 'Upgrade',
-              collapsed: true,
-              collapsible: true,
-              items: [
-                {
-                  type: 'doc',
-                  label: 'From Web3Wallet',
-                  id: 'walletkit/upgrade/from-web3wallet-to-reown'
-                }
-              ]
-            }
-          ]
-        }
+        // {
+        //   type: 'category',
+        //   label: 'WalletKit',
+        //   collapsed: false,
+        //   collapsible: true,
+        //   className: 'sidebar__logo sidebar__logo--walletkit',
+        //   items: [
+        //     'walletkit/overview',
+        //     {
+        //       type: 'category',
+        //       label: 'Features',
+        //       collapsed: false,
+        //       collapsible: true,
+        //       items: [
+        //         { type: 'doc', label: 'One-Click Auth', id: 'walletkit/features/one-click-auth' },
+        //         { type: 'doc', label: 'Notifications', id: 'walletkit/features/notifications' },
+        //         { type: 'doc', label: 'Verify', id: 'walletkit/features/verify' }
+        //       ]
+        //     },
+        //     'walletkit/best-practices',
+        //     {
+        //       type: 'category',
+        //       label: 'Upgrade',
+        //       collapsed: true,
+        //       collapsible: true,
+        //       items: [
+        //         {
+        //           type: 'doc',
+        //           label: 'From Web3Wallet',
+        //           id: 'walletkit/upgrade/from-web3wallet-to-reown'
+        //         }
+        //       ]
+        //     }
+        //   ]
+        // }
       ]
     },
-    cloud,
-    advanced,
-    specs,
+    // cloud,
+    // advanced,
+    // specs,
     dropdown_placeholder
   ],
   AppKit_React: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -399,28 +387,15 @@ module.exports = {
             }
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/react/cloud/verify',
-            'appkit/react/cloud/relay',
-            'appkit/react/cloud/blockchain-api',
-            'appkit/react/cloud/analytics'
-          ]
-        }
       ]
     },
-    specs,
     dropdown_placeholder
   ],
   AppKit_Next: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -494,28 +469,16 @@ module.exports = {
             }
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/next/cloud/verify',
-            'appkit/next/cloud/relay',
-            'appkit/next/cloud/blockchain-api',
-            'appkit/next/cloud/analytics'
-          ]
-        }
       ]
     },
-    specs,
+    
     dropdown_placeholder
   ],
   AppKit_Vue: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -589,28 +552,17 @@ module.exports = {
             }
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/vue/cloud/verify',
-            'appkit/vue/cloud/relay',
-            'appkit/vue/cloud/blockchain-api',
-            'appkit/vue/cloud/analytics'
-          ]
-        }
+        
       ]
     },
-    specs,
+   
     dropdown_placeholder
   ],
   AppKit_JS: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -684,28 +636,17 @@ module.exports = {
             }
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/javascript/cloud/verify',
-            'appkit/javascript/cloud/relay',
-            'appkit/javascript/cloud/blockchain-api',
-            'appkit/javascript/cloud/analytics'
-          ]
-        }
+       
       ]
     },
-    specs,
+    
     dropdown_placeholder
   ],
   AppKit_React_Native: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -765,28 +706,28 @@ module.exports = {
             }
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/react-native/cloud/verify',
-            'appkit/react-native/cloud/relay',
-            'appkit/react-native/cloud/blockchain-api',
-            'appkit/react-native/cloud/analytics'
-          ]
-        }
+        // {
+        //   type: 'category',
+        //   label: 'Cloud',
+        //   collapsible: false,
+        //   className: 'menu_outer_list',
+        //   items: [
+        //     'appkit/react-native/cloud/verify',
+        //     'appkit/react-native/cloud/relay',
+        //     'appkit/react-native/cloud/blockchain-api',
+        //     'appkit/react-native/cloud/analytics'
+        //   ]
+        // }
       ]
     },
-    specs,
+
     dropdown_placeholder
   ],
   AppKit_Flutter: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -806,28 +747,28 @@ module.exports = {
             'appkit/flutter/core/custom-chains'
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/flutter/cloud/verify',
-            'appkit/flutter/cloud/relay',
-            'appkit/flutter/cloud/blockchain-api',
-            'appkit/flutter/cloud/analytics'
-          ]
-        }
+        // {
+        //   type: 'category',
+        //   label: 'Cloud',
+        //   collapsible: false,
+        //   className: 'menu_outer_list',
+        //   items: [
+        //     'appkit/flutter/cloud/verify',
+        //     'appkit/flutter/cloud/relay',
+        //     'appkit/flutter/cloud/blockchain-api',
+        //     'appkit/flutter/cloud/analytics'
+        //   ]
+        // }
       ]
     },
-    specs,
+
     dropdown_placeholder
   ],
   AppKit_iOS: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -843,28 +784,17 @@ module.exports = {
             'appkit/ios/core/custom-chains'
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/ios/cloud/verify',
-            'appkit/ios/cloud/relay',
-            'appkit/ios/cloud/blockchain-api',
-            'appkit/ios/cloud/analytics'
-          ]
-        }
+        
       ]
     },
-    specs,
+
     dropdown_placeholder
   ],
   AppKit_Android: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -881,28 +811,17 @@ module.exports = {
             'appkit/android/core/theming'
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/android/cloud/verify',
-            'appkit/android/cloud/relay',
-            'appkit/android/cloud/blockchain-api',
-            'appkit/android/cloud/analytics'
-          ]
-        }
+    
       ]
     },
-    specs,
+    
     dropdown_placeholder
   ],
   AppKit_Unity: [
     welcome,
     {
       type: 'category',
-      label: 'AppKit',
+      label: 'API Docs',
       collapsible: false,
       className: 'menu_outer_list',
       items: [
@@ -919,268 +838,257 @@ module.exports = {
             'appkit/unity/core/customization'
           ]
         },
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'appkit/unity/cloud/verify',
-            'appkit/unity/cloud/relay',
-            'appkit/unity/cloud/blockchain-api',
-            'appkit/unity/cloud/analytics'
-          ]
-        }
+
       ]
     },
-    specs,
+
     dropdown_placeholder
   ],
-  walletKit_Android: [
-    welcome,
-    {
-      type: 'category',
-      label: 'WalletKit',
-      collapsible: false,
-      className: 'menu_outer_list',
-      items: [
-        'walletkit/android/installation',
-        'walletkit/android/usage',
-        'walletkit/android/one-click-auth',
-        'walletkit/android/mobile-linking',
-        'walletkit/android/link-mode',
-        'walletkit/android/verify',
-        'walletkit/android/eip5792',
-        {
-          type: 'category',
-          label: 'Notifications',
-          items: [
-            {
-              type: 'category',
-              label: 'Notify',
-              items: [
-                'walletkit/android/notifications/notify/overview',
-                'walletkit/android/notifications/notify/installation',
-                'walletkit/android/notifications/notify/usage',
-                'walletkit/android/notifications/notify/spam-protection',
-                'walletkit/android/notifications/notify/resources'
-              ]
-            },
-            'walletkit/android/notifications/push'
-          ]
-        },
-        'walletkit/android/best-practices',
-        'walletkit/android/resources',
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'walletkit/android/cloud/explorer-submission',
-            'walletkit/android/cloud/verify',
-            'walletkit/android/cloud/relay',
-            'walletkit/android/cloud/analytics'
-          ]
-        }
-      ]
-    },
-    specs,
-    dropdown_placeholder
-  ],
-  walletKit_iOS: [
-    welcome,
-    {
-      type: 'category',
-      label: 'WalletKit',
-      collapsible: false,
-      className: 'menu_outer_list',
-      items: [
-        'walletkit/ios/installation',
-        'walletkit/ios/usage',
-        'walletkit/ios/one-click-auth',
-        'walletkit/ios/mobile-linking',
-        'walletkit/ios/link-mode',
-        'walletkit/ios/verify',
-        'walletkit/ios/eip5792',
-        {
-          type: 'category',
-          label: 'Notifications',
-          items: [
-            {
-              type: 'category',
-              label: 'Notify',
-              items: [
-                'walletkit/ios/notifications/notify/overview',
-                'walletkit/ios/notifications/notify/installation',
-                'walletkit/ios/notifications/notify/usage',
-                'walletkit/ios/notifications/notify/spam-protection',
-                'walletkit/ios/notifications/notify/resources'
-              ]
-            },
-            'walletkit/ios/notifications/push'
-          ]
-        },
-        'walletkit/ios/best-practices',
-        'walletkit/ios/resources',
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'walletkit/ios/cloud/explorer-submission',
-            'walletkit/ios/cloud/verify',
-            'walletkit/ios/cloud/relay',
-            'walletkit/ios/cloud/analytics'
-          ]
-        }
-      ]
-    },
-    specs,
-    dropdown_placeholder
-  ],
-  walletKit_Flutter: [
-    welcome,
-    {
-      type: 'category',
-      label: 'WalletKit',
-      collapsible: false,
-      className: 'menu_outer_list',
-      items: [
-        'walletkit/flutter/installation',
-        'walletkit/flutter/usage',
-        'walletkit/flutter/one-click-auth',
-        'walletkit/flutter/mobile-linking',
-        'walletkit/flutter/link-mode',
-        'walletkit/flutter/verify',
-        'walletkit/flutter/eip5792',
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'walletkit/flutter/cloud/explorer-submission',
-            'walletkit/flutter/cloud/verify',
-            'walletkit/flutter/cloud/relay',
-            'walletkit/flutter/cloud/analytics'
-          ]
-        }
-      ]
-    },
-    specs,
-    dropdown_placeholder
-  ],
-  walletKit_React_Native: [
-    welcome,
-    {
-      type: 'category',
-      label: 'WalletKit',
-      collapsible: false,
-      className: 'menu_outer_list',
-      items: [
-        'walletkit/react-native/installation',
-        'walletkit/react-native/usage',
-        'walletkit/react-native/one-click-auth',
-        'walletkit/react-native/mobile-linking',
-        'walletkit/react-native/link-mode',
-        'walletkit/react-native/verify',
-        'walletkit/react-native/eip5792',
-        {
-          type: 'category',
-          label: 'Notifications',
-          items: [
-            {
-              type: 'category',
-              label: 'Notify',
-              items: [
-                'walletkit/react-native/notifications/notify/overview',
-                'walletkit/react-native/notifications/notify/installation',
-                'walletkit/react-native/notifications/notify/usage',
-                'walletkit/react-native/notifications/notify/spam-protection'
-              ]
-            },
-            'walletkit/react-native/notifications/push'
-          ]
-        },
-        'walletkit/react-native/best-practices',
-        'walletkit/react-native/resources',
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'walletkit/react-native/cloud/explorer-submission',
-            'walletkit/react-native/cloud/verify',
-            'walletkit/react-native/cloud/relay',
-            'walletkit/react-native/cloud/analytics'
-          ]
-        }
-      ]
-    },
-    specs,
-    dropdown_placeholder
-  ],
-  walletKit_Web: [
-    welcome,
-    {
-      type: 'category',
-      label: 'WalletKit',
-      collapsible: false,
-      className: 'menu_outer_list',
-      items: [
-        'walletkit/web/installation',
-        'walletkit/web/usage',
-        'walletkit/web/one-click-auth',
-        'walletkit/web/verify',
-        'walletkit/web/eip5792',
-        'walletkit/web/best-practices',
-        'walletkit/web/resources',
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'walletkit/web/cloud/explorer-submission',
-            'walletkit/web/cloud/verify',
-            'walletkit/web/cloud/relay',
-            'walletkit/web/cloud/analytics'
-          ]
-        }
-      ]
-    },
-    specs,
-    dropdown_placeholder
-  ],
-  walletKit_C_Sharp: [
-    welcome,
-    {
-      type: 'category',
-      label: 'WalletKit',
-      collapsible: false,
-      className: 'menu_outer_list',
-      items: [
-        'walletkit/c-sharp/installation',
-        'walletkit/c-sharp/usage',
-        'walletkit/c-sharp/verify',
-        {
-          type: 'category',
-          label: 'Cloud',
-          collapsible: false,
-          className: 'menu_outer_list',
-          items: [
-            'walletkit/c-sharp/cloud/explorer-submission',
-            'walletkit/c-sharp/cloud/verify',
-            'walletkit/c-sharp/cloud/relay',
-            'walletkit/c-sharp/cloud/analytics'
-          ]
-        }
-      ]
-    },
-    specs,
-    dropdown_placeholder
-  ]
+  // walletKit_Android: [
+  //   welcome,
+  //   {
+  //     type: 'category',
+  //     label: 'WalletKit',
+  //     collapsible: false,
+  //     className: 'menu_outer_list',
+  //     items: [
+  //       'walletkit/android/installation',
+  //       'walletkit/android/usage',
+  //       'walletkit/android/one-click-auth',
+  //       'walletkit/android/mobile-linking',
+  //       'walletkit/android/link-mode',
+  //       'walletkit/android/verify',
+  //       'walletkit/android/eip5792',
+  //       {
+  //         type: 'category',
+  //         label: 'Notifications',
+  //         items: [
+  //           {
+  //             type: 'category',
+  //             label: 'Notify',
+  //             items: [
+  //               'walletkit/android/notifications/notify/overview',
+  //               'walletkit/android/notifications/notify/installation',
+  //               'walletkit/android/notifications/notify/usage',
+  //               'walletkit/android/notifications/notify/spam-protection',
+  //               'walletkit/android/notifications/notify/resources'
+  //             ]
+  //           },
+  //           'walletkit/android/notifications/push'
+  //         ]
+  //       },
+  //       'walletkit/android/best-practices',
+  //       'walletkit/android/resources',
+  //       {
+  //         type: 'category',
+  //         label: 'Cloud',
+  //         collapsible: false,
+  //         className: 'menu_outer_list',
+  //         items: [
+  //           'walletkit/android/cloud/explorer-submission',
+  //           'walletkit/android/cloud/verify',
+  //           'walletkit/android/cloud/relay',
+  //           'walletkit/android/cloud/analytics'
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   specs,
+  //   dropdown_placeholder
+  // ],
+  // walletKit_iOS: [
+  //   welcome,
+  //   {
+  //     type: 'category',
+  //     label: 'WalletKit',
+  //     collapsible: false,
+  //     className: 'menu_outer_list',
+  //     items: [
+  //       'walletkit/ios/installation',
+  //       'walletkit/ios/usage',
+  //       'walletkit/ios/one-click-auth',
+  //       'walletkit/ios/mobile-linking',
+  //       'walletkit/ios/link-mode',
+  //       'walletkit/ios/verify',
+  //       'walletkit/ios/eip5792',
+  //       {
+  //         type: 'category',
+  //         label: 'Notifications',
+  //         items: [
+  //           {
+  //             type: 'category',
+  //             label: 'Notify',
+  //             items: [
+  //               'walletkit/ios/notifications/notify/overview',
+  //               'walletkit/ios/notifications/notify/installation',
+  //               'walletkit/ios/notifications/notify/usage',
+  //               'walletkit/ios/notifications/notify/spam-protection',
+  //               'walletkit/ios/notifications/notify/resources'
+  //             ]
+  //           },
+  //           'walletkit/ios/notifications/push'
+  //         ]
+  //       },
+  //       'walletkit/ios/best-practices',
+  //       'walletkit/ios/resources',
+  //       {
+  //         type: 'category',
+  //         label: 'Cloud',
+  //         collapsible: false,
+  //         className: 'menu_outer_list',
+  //         items: [
+  //           'walletkit/ios/cloud/explorer-submission',
+  //           'walletkit/ios/cloud/verify',
+  //           'walletkit/ios/cloud/relay',
+  //           'walletkit/ios/cloud/analytics'
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   specs,
+  //   dropdown_placeholder
+  // ],
+  // walletKit_Flutter: [
+  //   welcome,
+  //   {
+  //     type: 'category',
+  //     label: 'WalletKit',
+  //     collapsible: false,
+  //     className: 'menu_outer_list',
+  //     items: [
+  //       'walletkit/flutter/installation',
+  //       'walletkit/flutter/usage',
+  //       'walletkit/flutter/one-click-auth',
+  //       'walletkit/flutter/mobile-linking',
+  //       'walletkit/flutter/link-mode',
+  //       'walletkit/flutter/verify',
+  //       'walletkit/flutter/eip5792',
+  //       {
+  //         type: 'category',
+  //         label: 'Cloud',
+  //         collapsible: false,
+  //         className: 'menu_outer_list',
+  //         items: [
+  //           'walletkit/flutter/cloud/explorer-submission',
+  //           'walletkit/flutter/cloud/verify',
+  //           'walletkit/flutter/cloud/relay',
+  //           'walletkit/flutter/cloud/analytics'
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   specs,
+  //   dropdown_placeholder
+  // ],
+  // walletKit_React_Native: [
+  //   welcome,
+  //   {
+  //     type: 'category',
+  //     label: 'WalletKit',
+  //     collapsible: false,
+  //     className: 'menu_outer_list',
+  //     items: [
+  //       'walletkit/react-native/installation',
+  //       'walletkit/react-native/usage',
+  //       'walletkit/react-native/one-click-auth',
+  //       'walletkit/react-native/mobile-linking',
+  //       'walletkit/react-native/link-mode',
+  //       'walletkit/react-native/verify',
+  //       'walletkit/react-native/eip5792',
+  //       {
+  //         type: 'category',
+  //         label: 'Notifications',
+  //         items: [
+  //           {
+  //             type: 'category',
+  //             label: 'Notify',
+  //             items: [
+  //               'walletkit/react-native/notifications/notify/overview',
+  //               'walletkit/react-native/notifications/notify/installation',
+  //               'walletkit/react-native/notifications/notify/usage',
+  //               'walletkit/react-native/notifications/notify/spam-protection'
+  //             ]
+  //           },
+  //           'walletkit/react-native/notifications/push'
+  //         ]
+  //       },
+  //       'walletkit/react-native/best-practices',
+  //       'walletkit/react-native/resources',
+  //       {
+  //         type: 'category',
+  //         label: 'Cloud',
+  //         collapsible: false,
+  //         className: 'menu_outer_list',
+  //         items: [
+  //           'walletkit/react-native/cloud/explorer-submission',
+  //           'walletkit/react-native/cloud/verify',
+  //           'walletkit/react-native/cloud/relay',
+  //           'walletkit/react-native/cloud/analytics'
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   specs,
+  //   dropdown_placeholder
+  // ],
+  // walletKit_Web: [
+  //   welcome,
+  //   {
+  //     type: 'category',
+  //     label: 'WalletKit',
+  //     collapsible: false,
+  //     className: 'menu_outer_list',
+  //     items: [
+  //       'walletkit/web/installation',
+  //       'walletkit/web/usage',
+  //       'walletkit/web/one-click-auth',
+  //       'walletkit/web/verify',
+  //       'walletkit/web/eip5792',
+  //       'walletkit/web/best-practices',
+  //       'walletkit/web/resources',
+  //       {
+  //         type: 'category',
+  //         label: 'Cloud',
+  //         collapsible: false,
+  //         className: 'menu_outer_list',
+  //         items: [
+  //           'walletkit/web/cloud/explorer-submission',
+  //           'walletkit/web/cloud/verify',
+  //           'walletkit/web/cloud/relay',
+  //           'walletkit/web/cloud/analytics'
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   specs,
+  //   dropdown_placeholder
+  // ],
+  // walletKit_C_Sharp: [
+  //   welcome,
+  //   {
+  //     type: 'category',
+  //     label: 'WalletKit',
+  //     collapsible: false,
+  //     className: 'menu_outer_list',
+  //     items: [
+  //       'walletkit/c-sharp/installation',
+  //       'walletkit/c-sharp/usage',
+  //       'walletkit/c-sharp/verify',
+  //       {
+  //         type: 'category',
+  //         label: 'Cloud',
+  //         collapsible: false,
+  //         className: 'menu_outer_list',
+  //         items: [
+  //           'walletkit/c-sharp/cloud/explorer-submission',
+  //           'walletkit/c-sharp/cloud/verify',
+  //           'walletkit/c-sharp/cloud/relay',
+  //           'walletkit/c-sharp/cloud/analytics'
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   specs,
+  //   dropdown_placeholder
+  // ]
 }

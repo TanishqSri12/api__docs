@@ -3,16 +3,16 @@ import Link from '@docusaurus/Link'
 import useBaseUrl from '@docusaurus/useBaseUrl'
 
 const typeToImageMap = {
-  react: 'assets/home/reactLogo.png',
-  nextjs: 'assets/home/nextjsLogo.png',
-  vue: 'assets/home/vueLogo.png',
+  react: 'assets/home/CURL-Logo.wine.png',
+  nextjs: 'assets/home/Go-Logo.wine.png',
+  vue: 'assets/home/java-4-logo-png-transparent.png',
   javascript: 'assets/home/javascriptLogo.png',
-  ios: 'assets/home/iosLogo.png',
-  android: 'assets/home/androidLogo.png',
-  rn: 'assets/home/rnLogo.png',
+  ios: 'assets/home/Ruby.png',
+  android: 'assets/home/nodejs.png',
+  rn: 'assets/home/python-logo-only.png',
   web: 'assets/home/webLogo.png',
-  flutter: 'assets/home/flutterLogo2.png',
-  csharp: 'assets/home/csharpLogo.png'
+  flutter: 'assets/home/new-php-logo.png',
+  csharp: 'assets/home/dart.png'
 }
 
 const productToLinkMap = {

@@ -18,16 +18,16 @@ function TagsRow(props) {
 function EditMetaRow({ editUrl, lastUpdatedAt, lastUpdatedBy, formattedLastUpdatedAt }) {
   return (
     <div className={clsx(ThemeClassNames.docs.docFooterEditMetaRow, 'row')}>
-      <div className="col">{editUrl && <EditThisPage editUrl={editUrl} />}</div>
+      {/* <div className="col">{editUrl && <EditThisPage editUrl={editUrl} />}</div> */}
 
       <div className={clsx('col', styles.lastUpdated)}>
-        {(lastUpdatedAt || lastUpdatedBy) && (
+        {/* {(lastUpdatedAt || lastUpdatedBy) && (
           <LastUpdated
             lastUpdatedAt={lastUpdatedAt}
             formattedLastUpdatedAt={formattedLastUpdatedAt}
             lastUpdatedBy={lastUpdatedBy}
           />
-        )}
+        )} */}
       </div>
     </div>
   )

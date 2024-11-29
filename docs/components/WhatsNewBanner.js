@@ -6,9 +6,9 @@ export const CloudBanner = ({ title, description, href, image = wcGlassImage }) 
   return (
     <div className="cloud__wrapper" style={{ padding: '1.67rem' }}>
       <div className="cloud__text-container">
-        <b><p>WalletConnect Inc. is now known as Reown. See walletconnect.network for information about the WalletConnect Network.</p></b>
+        <b><p>API Docs are critical in software development as they provide developers with the information needed to understand, use, and integrate with an API.</p></b>
       </div>
-      <Link to={"https://reown.com/blog/walletconnect-is-now-reown"}>
+      <Link to={"https://docs.intelchain.org"}>
         Learn More
           <path
             strokeLinecap="round"

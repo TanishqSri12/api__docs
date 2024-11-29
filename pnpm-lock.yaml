@@ -26,9 +26,9 @@ importers:
       '@docusaurus/plugin-sitemap':
         specifier: ^3.4.0
         version: 3.4.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.3.3)
-      '@docusaurus/preset-classic':
-        specifier: ^3.4.0
-        version: 3.4.0(@algolia/client-search@4.23.2)(@types/react@18.2.75)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)
+      # '@docusaurus/preset-classic':
+      #   specifier: ^3.4.0
+      #   version: 3.4.0(@algolia/client-search@4.23.2)(@types/react@18.2.75)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)
       '@docusaurus/remark-plugin-npm2yarn':
         specifier: ^3.4.0
         version: 3.4.0

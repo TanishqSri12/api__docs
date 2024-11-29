@@ -110,111 +110,111 @@ const config = {
   ],
 
   themeConfig: {
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    algolia: {
-      appId: 'KEO8ND6AUT',
-      apiKey: '5921626237dc9040afc258af25d4e77d',
-      indexName: 'walletconnect',
-      contextualSearch: true
-    },
-    image: 'img/Docs-OG.png',
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // algolia: {
+    //   // appId: 'KEO8ND6AUT',
+    //   // apiKey: '5921626237dc9040afc258af25d4e77d',
+    //   // indexName: 'walletconnect',
+    //   // contextualSearch: true
+    // },
+    image: 'img/intelsmall.png',
     metadata: [{ name: 'twitter:card', content: 'summary_large_image' }],
     navbar: {
       items: [
         {
           type: 'html',
           value:
-            '<a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/docs-logo.svg"  alt="Docs Logo"></a>'
+            '<a class="navbar__brand" href="/"><div class="navbar__logo"><img src=""  alt="Docs Logo"></a>'
         },
+        // {
+        //   label: 'Cloud Dashboard',
+        //   href: 'https://cloud.reown.com/?utm_source=website&utm_medium=docs&utm_campaign=docs',
+        //   position: 'right',
+        //   className: 'header-cloud-link',
+        //   'aria-label': 'Cloud'
+        // },
+        // {
+        //   label: 'AppKit Demo',
+        //   href: 'https://appkit-lab.reown.com/?utm_source=website&utm_medium=docs&utm_campaign=docs',
+        //   position: 'right',
+        //   className: 'header-cloud-link',
+        //   'aria-label': 'Cloud'
+        // },
         {
-          label: 'Cloud Dashboard',
-          href: 'https://cloud.reown.com/?utm_source=website&utm_medium=docs&utm_campaign=docs',
-          position: 'right',
-          className: 'header-cloud-link',
-          'aria-label': 'Cloud'
-        },
-        {
-          label: 'AppKit Demo',
-          href: 'https://appkit-lab.reown.com/?utm_source=website&utm_medium=docs&utm_campaign=docs',
-          position: 'right',
-          className: 'header-cloud-link',
-          'aria-label': 'Cloud'
-        },
-        {
-          href: 'https://github.com/reown-com/',
+          href: 'https://github.com/intelchain-itc',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository'
         }
       ]
     },
-    footer: {
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'AppKit',
-              to: '/appkit/overview'
-            },
-            {
-              label: 'WalletKit',
-              to: '/walletkit/overview'
-            }
-          ]
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/orgs/reown-com/discussions'
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.com/invite/kdTQHQ6AFQ'
-            },
-            /*{
-              label: 'Telegram',
-              href: 'https://t.me/walletconnect'
-            },*/ //Commenting out for now
-            {
-              label: 'X',
-              href: 'https://x.com/reown_'
-            }
-          ]
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              href: 'https://reown.com/blog'
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/reown-com/reown-docs'
-            },
-            {
-              label: 'Farcaster',
-              href: 'https://warpcast.com/reown/'
-            }
-          ]
-        },
-        {
-          title: 'Privacy',
-          items: [
-            {
-              href: '#',
-              id: 'termly-display-preferences',
-              class: 'termly-display-preferences footer__link-item',
-              label: 'Consent Preferences'
-            }
-          ]
-        }
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Reown, Inc.`
-    },
+    // footer: {
+    //   links: [
+    //     {
+    //       title: 'Docs',
+    //       items: [
+    //         {
+    //           label: 'AppKit',
+    //           to: '/appkit/overview'
+    //         },
+    //         {
+    //           label: 'WalletKit',
+    //           to: '/walletkit/overview'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       title: 'Community',
+    //       items: [
+    //         {
+    //           label: 'GitHub Discussions',
+    //           href: 'https://github.com/orgs/reown-com/discussions'
+    //         },
+    //         {
+    //           label: 'Discord',
+    //           href: 'https://discord.com/invite/kdTQHQ6AFQ'
+    //         },
+    //         /*{
+    //           label: 'Telegram',
+    //           href: 'https://t.me/walletconnect'
+    //         },*/ //Commenting out for now
+    //         {
+    //           label: 'X',
+    //           href: 'https://x.com/reown_'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       title: 'More',
+    //       items: [
+    //         {
+    //           label: 'Blog',
+    //           href: 'https://reown.com/blog'
+    //         },
+    //         {
+    //           label: 'GitHub',
+    //           href: 'https://github.com/reown-com/reown-docs'
+    //         },
+    //         {
+    //           label: 'Farcaster',
+    //           href: 'https://warpcast.com/reown/'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       title: 'Privacy',
+    //       items: [
+    //         {
+    //           href: '#',
+    //           id: 'termly-display-preferences',
+    //           class: 'termly-display-preferences footer__link-item',
+    //           label: 'Consent Preferences'
+    //         }
+    //       ]
+    //     }
+    //   ],
+    //   copyright: `Copyright © ${new Date().getFullYear()} Reown, Inc.`
+    // },
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
